@@ -1,8 +1,12 @@
 # docker-ubuntu18-blobfuse
 
 Docker image based on ubuntu:18.04 which mounts an Azure blob
-container via [Microsoft's FUSE
-driver](https://github.com/Azure/azure-storage-fuse).
+container via [Microsoft's FUSE driver](https://github.com/Azure/azure-storage-fuse/).
+
+|-------------|---------------------------------------------------------------------------------------------------|
+| Docker Hub: | [jeffreybreen/ubuntu18-blobfuse](https://hub.docker.com/r/jeffreybreen/ubuntu18-blobfuse/)        |
+| github:     | [jeffreybreen/docker-ubuntu18-blobfuse](https://github.com/jeffreybreen/docker-ubuntu18-blobfuse) |
+
 
 ## `mount-blobfuse.sh` entrypoint
 
