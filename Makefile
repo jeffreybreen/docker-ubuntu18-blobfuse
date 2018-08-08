@@ -6,7 +6,8 @@
 
 #
 ## start by including any environment variables you need
-include .env
+# (but don't break if not present)
+-include .env
 
 # build-time:
 REPO = docker.io
